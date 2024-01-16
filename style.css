@@ -353,6 +353,97 @@ select {
 
 /* get lost section end */
 
+/* newsletter section start */
+.newsletter-section {
+    display: flex;
+    margin: 100px 0px;
+    gap: 24px;
+}
+
+.newsletter-box {
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding: 40px;
+}
+
+.newsletter-box h1 {
+    color: #131318;
+    font-size: 45px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.newsletter-box p {
+    color: var(--second-color);
+    font-size: 20px;
+    padding-bottom: 34px;
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 48px;
+}
+
+.input-box {
+    width: 100%;
+}
+
+.input-box input[type="text"],
+input[type="email"] {
+    width: 90%;
+    color: var(--second-color);
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    outline: none;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+}
+
+.input-box input[type="button"] {
+    width: 96%;
+    margin-top: 8px;
+    font-size: 20px;
+}
+
+.newsletter-imgbox {
+    width: 55%;
+    position: relative;
+}
+
+.newsletter-imgbox img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.discount-card {
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 50px;
+    left: 554px;
+}
+
+.discount-card p {
+    font-size: 24px;
+}
+
+.discount-card h1 {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+/* newsletter section end */
+
 
 
 
@@ -504,6 +595,51 @@ select {
 
     .getlost-img h2 {
         top: 140px;
+        font-size: 20px;
+    }
+
+    .newsletter-section {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .newsletter-box {
+        width: 86%;
+        padding: 20px;
+    }
+
+    .newsletter-box h1 {
+        font-size: 28px;
+    }
+
+    .newsletter-box p {
+        font-size: 16px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .input-box input[type="button"] {
+        width: 100%;
+    }
+
+    .newsletter-imgbox {
+        width: 100%;
+    }
+
+    .newsletter-imgbox img {
+        width: 100%;
+    }
+
+    .discount-card {
+        width: 200.023px;
+        height: 70.268px;
+        left: 133px;
+        bottom: 33px;
+    }
+    .discount-card p{
+        font-size: 16px;
+    }
+    .discount-card h1{
         font-size: 20px;
     }
 }
